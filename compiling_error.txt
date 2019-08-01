@@ -1,4 +1,11 @@
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:5:9: fatal error: conio.h: No such file or directory
- #include<conio.h>
-         ^~~~~~~~~
-compilation terminated.
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c: In function ‘main’:
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:13:2: warning: implicit declaration of function ‘clrscr’ [-Wimplicit-function-declaration]
+  clrscr();
+  ^~~~~~
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:17:19: error: invalid operands to binary & (have ‘int *’ and ‘int’)
+  scanf("%d %d",&a &b);
+                ~~ ^
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:23:2: warning: implicit declaration of function ‘getch’; did you mean ‘getc’? [-Wimplicit-function-declaration]
+  getch();
+  ^~~~~
+  getc
