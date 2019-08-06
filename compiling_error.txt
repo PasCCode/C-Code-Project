@@ -1,11 +1,14 @@
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:16:6: error: conflicting types for ‘main’
+ void main()
+      ^~~~
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:7:5: note: previous definition of ‘main’ was here
+ int main()
+     ^~~~
 /usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c: In function ‘main’:
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:13:2: warning: implicit declaration of function ‘clrscr’ [-Wimplicit-function-declaration]
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:22:2: warning: implicit declaration of function ‘clrscr’; did you mean ‘clear’? [-Wimplicit-function-declaration]
   clrscr();
   ^~~~~~
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:17:19: error: invalid operands to binary & (have ‘int *’ and ‘int’)
+  clear
+/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:26:19: error: invalid operands to binary & (have ‘int *’ and ‘int’)
   scanf("%d %d",&a &b);
                 ~~ ^
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:23:2: warning: implicit declaration of function ‘getch’; did you mean ‘getc’? [-Wimplicit-function-declaration]
-  getch();
-  ^~~~~
-  getc
