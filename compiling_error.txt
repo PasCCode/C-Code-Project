@@ -1,14 +1,4 @@
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:16:6: error: conflicting types for ‘main’
- void main()
-      ^~~~
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:7:5: note: previous definition of ‘main’ was here
- int main()
-     ^~~~
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c: In function ‘main’:
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:22:2: warning: implicit declaration of function ‘clrscr’; did you mean ‘clear’? [-Wimplicit-function-declaration]
-  clrscr();
-  ^~~~~~
-  clear
-/usr/local/google/home/pbernhard/github/C-Code-Project/Sum-Function.c:26:19: error: invalid operands to binary & (have ‘int *’ and ‘int’)
-  scanf("%d %d",&a &b);
-                ~~ ^
+/usr/local/google/home/pbernhard/github/C-Code-Project/HelloWorld.c:1:10: fatal error: iostream: No such file or directory
+ #include <iostream>
+          ^~~~~~~~~~
+compilation terminated.
